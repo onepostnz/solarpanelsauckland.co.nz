@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://solarpanelsauckland.co.nz/sitemap.xml
