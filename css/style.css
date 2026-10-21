@@ -547,9 +547,12 @@ header.classic .nav-item svg{stroke:#000}
 header.classic .nav-dropdown a{color:#000}
 .hero-c{background-color:#7EBEC5;min-height:560px}
 .hero-c::before{content:"";position:absolute;inset:0;background:rgba(0,0,0,.25)}
-.hero-c-box{width:min(70%,820px);text-align:left}
-.hero-c-box h1{text-align:left}
-.hero-c-box p{color:#333}
+.hero-c{justify-content:flex-start;padding-left:max(24px,6vw)}
+.hero-c-box{background:none;width:min(100%,640px);text-align:left;padding:0}
+.hero-c-box h1{text-align:left;color:#fff;font-size:clamp(2.6rem,6vw,4.4rem);font-weight:700;line-height:1.05;text-shadow:0 2px 8px rgba(0,0,0,.35)}
+.hero-c-box p,.hero-c-box .text p{color:#fff;font-size:1.05rem;text-shadow:0 1px 6px rgba(0,0,0,.4)}
+.hero-c-box .btn-primary{background:transparent;color:#fff;border:2px solid #fff;border-radius:3px;box-shadow:none;text-decoration:none;font-size:1.15rem;font-weight:400;padding:.5em 1.1em}
+.hero-c-box .btn-primary:hover{background:rgba(255,255,255,.15)}
 .hero-c-box .text p:first-of-type{margin-top:10px}
 .post-meta{color:#777;font-size:.9rem;margin:0 0 18px}
 .post-feature{width:100%;height:auto;border-radius:10px;margin:0 0 22px}
